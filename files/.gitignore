@@ -1,0 +1,11 @@
+# Ignore data except small samples
+data/*
+!data/sample.csv
+
+# Ignore large model weights
+models/*
+!models/readme.md
+
+# Ignore Python cache
+__pycache__/
+*.pyc
